@@ -48,7 +48,7 @@ h2 {
 	/*position: relative;*/
 	margin: 0;
 	background: linear-gradient(to bottom, white 1%, transparent),
-				url('images/Streetview.png');
+				url('images/StreetView.png');
 	background-repeat: no-repeat;
 	background-position: bottom;
 	/*z-index: -2;*/
