@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#body-style {
+	/*background-color: white;*/
+	color: #960404;
+	font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+	line-height: 1.5;
+	font-size: 1.25em;
+	font-style: bold;
+	text-align: center;
+}
+
+#footer-style {
+	background-color: transparent;
+	/*background-image: linear-gradient(to top, #d0d3fa 30%, #050727 100%);*/
+	/*padding: 20px 20px;*/
+	margin: 1% 0 0 0;
+}
+
+.event-title {
+	font-size: 3em;
+	letter-spacing: 0.065em;
+	padding: 2% 0 0 0;
+	color: #050727;
+	float: none;
+}
+
+.event-date {
+	font-size: 3em;
+	letter-spacing: 0.065em;
+	padding: 0 0 2% 0;
+	color: #050727;
+	float: none;
+}
+
+h2 {
+	font-size: 2em;
+	letter-spacing: 0.065em;
+	padding: 0 0 2% 0;
+	color: #050727;
+	float: none;
+}
+
+.top-content {
+	/*position: relative;*/
+	margin: 0;
+	background: linear-gradient(to bottom, white 1%, transparent),
+				url('images/Streetview.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	/*z-index: -2;*/
+	background-size: 100%;
+	/*padding: 10% 0;*/
+	width: 100%;
+	clear: both;
+}
+
+header {
+	background-color: transparent;
+	/*background-image: linear-gradient(to bottom, #d0d3fa 50%, #050727 100%);*/
+	padding: 0;
+	/*float: both;*/
+	margin: 2% 0 0 0;
+}
+
+.header-image {
+	max-width: 25%;
+	border: 10px solid;
+	border-radius: 100%;
+	/*float: left;*/
+}
+
+
+
+a:link {
+	color: #d0d3fa;
+	font-size: 1.5em;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #d0d3fa;
+	text-decoration: none;
+}
+
+.frame {
+	/*position: relative;*/
+	/*background-color: transparent;*/
+	border: 10px solid;
+	border-radius: 10px;
+	width: 50%;
+	margin: 5% auto;
+	background-color: black;
+	/*z-index: 1;*/
+}
+
+iframe {
+	/*position: relative;*/
+	width: 100%;
+	/*z-index: 0; */
+	padding: 0;
+	
+}
+
+.frame-text {
+	color: #960404;
+	font-family: sans-serif;
+	line-height: 1.5;
+	font-size: 1.25em;
+	font-style: bold;
+	text-align: center;
+}
+
+/*.nav-links {
+
+	margin: 1% 0 5% 0;
+}*/
+
+.social-icons li {
+	list-style-type: none;
+	list-style-position: inside;
+	padding: 2%;
+	display: inline;
+	border: none;
+}
+
+.icons
+{
+	width: 5%;
+}
+
+
+/*.group:after {
+	content: " ";
+	display: table;
+	clear: both;
+}*/
+

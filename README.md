@@ -1,2 +1,2 @@
-# beckysteele.github.io
+# sevensense.github.io
 Seven Sense Website
