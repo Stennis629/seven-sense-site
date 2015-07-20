@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!--Document Information-->
+<head>
+	<title>Seven Sense Festival</title>
+
+	<!--Viewport Meta Tag for Mobile First Bootstrap Response-->
+	<meta name="viewport" content="width=device-width, initial-scale=2">
+	
+	<!--Meta Data-->
+	<meta name="description" content="Seven Sense Festival Website">
+	<meta name="keywords" content="Seven Sense Festival, Louisville, Music, Beer">
+	<meta name="author" content="Becky Steele">
+	<meta charset="UTF-8">
+
+	<!--CSS Stylesheet Links-->
+	<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css" media="screen">
+	<link rel="stylesheet" href="css/custom.css" media="screen">
+	
+	<!--JS & jQuery Libraries-->
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/custom.js"></script>
+
+</head>
+
+<!--Begin HTML Skeleton-->
+
+<body>
+
+<!--Bootstrap Navbar-->
+
+<div class="navbar navbar-default">
+	<div class="container">
+
+	<a href="#"><img class="main-img img-responsive container" src="images/SS_Logo_Red.png"></a>
+
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="#" data-toggle="modal" data-target="#textModal" data-whatever="Meet the Bands!">Bands</a></li>
+				<li><a href="#"  data-toggle="modal" data-target="#textModal" data-whatever="Breweries">Breweries</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#textModal" data-whatever="Spirits">Spirits</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#textModal" data-whatever="Food">Food</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#textModal" data-whatever="Vendors">Vendors</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#textModal" data-whatever="Boys & Girls Haven">Boys & Girls Haven</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!--Bootstrap Modal Container-->
+
+<div class="modal fade" id="textModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Text</h4>
+          </div>
+			<div class="modal-body">
+				<p>hello!</p>
+			</div>
+		</div>
+		
+	</div>
+
+</div>
+
+<div class="container">
+
+	<!--Content Structure-->
+
+			<div class="row">
+				<h1 class="col-md-12">8.22.15</h1>
+			</div>
+
+			<div class="row">
+				<video muted autoplay controls class="col-md-12">
+					<source src="images/PromoVid.mp4" type="video/mp4">
+				</video>
+			</div>
+
+
+
+	
+
+	<!--Footer Structure-->
+
+	<div class="btn-group row">
+		<!--Facebook Social Media Icon-->
+		<a href="https://www.facebook.com/sevensensefestival" class="btn col-md-3 social-icons"><img class="img-responsive" src="images/FB.png"></a>
+		<!--Twitter Social Media Icon-->
+		<a href="https://instagram.com/sevensensefest/" class="btn col-md-3 social-icons"><img class="img-responsive" src="images/twitter.png"></a>
+		<!--Instagram Social Media Icon-->
+		<a href="https://twitter.com/sevensensefest" class="btn col-md-3 social-icons"><img class="img-responsive" src="images/instagram.png"></a>
+		<!--Email Contact Icon-->
+		<a href="mailto:sensesensefest@gmail.com" class="btn col-md-3 social-icons"><img class="img-responsive" src="images/mail.png"></a>
+	</div>
+	<br>
+		<div class="row">
+			<p class="col-md-12 copyright">&copy Seven Sense Festival 2015</p>
+		</div>
+	</div>
+
+</body>
+</html>
