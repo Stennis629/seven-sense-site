@@ -5,7 +5,7 @@ body {
 	text-align: center;
 	color: #960404;
 	background: linear-gradient(to bottom, white 1%, transparent),
-				url('../images/StreetViewPic.png');
+				url('../images/StreetViewPic-min.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
