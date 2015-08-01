@@ -5,7 +5,7 @@ body {
 	text-align: center;
 	color: #960404;
 	background: linear-gradient(to bottom, white 1%, transparent),
-				url('../images/StreetViewPic-min.png');
+				url('../images/StreetViewPic2.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -27,8 +27,7 @@ ul {
 
 #container2 {
     width: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow: hidden;
     margin: 0 auto 50px auto;
     background: rgba(208, 211, 250, 0.7);
     border-radius: 5px;
@@ -217,18 +216,18 @@ h1 {
 
 /*Social Media Icon Styling*/
 /**********************************************/
-.social-icons img {
+/*.social-icons img {
   width: 50%;
   height: auto;
-}
+}*/
 /**********************************************/
 
 
 
 /*Custom Override: Media Query Adjustments*/
 /**********************************************/
-/*Resizing Main Image for device sizes <480px wide*/
-@media (max-width: 480px) {
+/*Resizing Main Image for device sizes 320px - 480px wide*/
+@media (min-width: 320px) and (max-width: 480px){
 	.main-img {
 		width: 50%;
 		text-align: center;
@@ -239,8 +238,14 @@ h1 {
 		height: auto;
 	}
 
+	.social-icons img {
+	  width: 50%;
+	  height: auto;
+	}
+
 
 }
+
 
 /*Resizing Main Image for devices > 480px < 768px*/
 @media (min-width: 480px) and (max-width: 768px) {
@@ -252,6 +257,11 @@ h1 {
 	video {
 		width: 75%;
 		height: auto;
+	}
+
+	.social-icons img {
+	  width: 50%;
+	  height: auto;
 	}
 
 
@@ -280,19 +290,24 @@ h1 {
     }
 
     .main-img {
-	width: 25%;
+	width: 50%;
 	text-align: center;
 	}
 
 	video {
-		width: 50%;
+		width: 75%;
 		height: auto;
+	}
+
+	.social-icons img {
+	  width: 50%;
+	  height: auto;
 	}
 
 
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1200px){
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
@@ -309,14 +324,51 @@ h1 {
     }
 
     .main-img {
-	width: 25%;
+	width: 50%;
 	text-align: center;
 	}
 
 	video {
-		width: 50%;
+		width: 75%;
 		height: auto;
 	}
 
+	.social-icons img {
+	  width: 50%;
+	  height: auto;
+	}
+
+}
+
+@media (min-width: 1200px) and (max-width: 2000px){
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar-default {
+	font-size: 1.5em;
+	}
+
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    .main-img {
+	width: 50%;
+	text-align: center;
+	}
+
+	video {
+		width: 75%;
+		height: auto;
+	}
+
+	.social-icons img {
+	  width: 50%;
+	  height: auto;
+	}
 
 }
