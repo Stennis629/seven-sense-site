@@ -4,7 +4,8 @@
 	<meta charset="utf-8" />
 	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
 	<!-- Insert 7 Sense Favicon here -->
-	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<!--<link rel="icon" type="image/png" href="assets/img/favicon.png">-->
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 	<title>Seven Sense Fest</title>
@@ -14,12 +15,12 @@
 	<!--     Fonts and icons     -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+	<script src="https://use.fontawesome.com/52fdef5938.js"></script>
 
 	<!-- CSS Files -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/demo.css" rel="stylesheet"/>
-        <link href="assets/css/material-kit.css" rel="stylesheet"/>
+	<link href="assets/css/demo.css" rel="stylesheet"/>
+    <link href="assets/css/material-kit.css" rel="stylesheet"/>
 
 </head>
 
@@ -51,16 +52,6 @@
 
         	<div class="collapse navbar-collapse" id="navigation-example">
         		<ul class="nav navbar-nav navbar-right">
-    				<li><!--
-    					<a href="components-documentation.html" class="btn" target="_blank">
-    						Components
-    					</a>
-    				</li>
-    				<li>
-    					<a href="http://www.creative-tim.com/product/material-kit" target="_blank" class="btn">
-    						Download
-    					</a>
-    				</li>-->
 		            <li> <!-- Change link -->
 		                <a href="https://twitter.com/sevensensefest" target="_blank" class="btn btn-simple">
 							<i class="fa fa-twitter"></i>
@@ -74,6 +65,11 @@
 					<li> <!-- Change link -->
 		                <a href="https://www.instagram.com/sevensensefest/" target="_blank" class="btn btn-simple">
 							<i class="fa fa-instagram"></i>
+						</a>
+		            </li>
+					<li> <!-- Change link -->
+		                <a href="mailto:sevensensefest@gmail.com" target="_blank" class="btn btn-simple">
+							<i class="fa fa-envelope"></i>
 						</a>
 		            </li>
         		</ul>
@@ -98,9 +94,17 @@
 	                    </div>
 	                </div>
 	                <div class="description text-center">
-                        <h3>A free, all ages street festival, including live music, craft beer, spirits, local food and arts &amp; crafts.</h3>
+                        <h3>A free, all ages street festival, including live music, spirits, craft beer, local food and arts &amp; crafts.</h3>
+						<h4>South Preston Street, from Lynn Street to Fetter Avenue.</h4>
                         <h3> A benefit for Boys &amp; Girls Haven. </h3>
 	                </div>
+					<form class="text-center" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="U6MBX3NU9LJDU">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form>
+					<h3 class="text-center">Donate $5 (or any amount), and help us keep Seven Sense Fest free!</h3>
 	             </div>
 	    </div>
 	    <div class="profile-content">
@@ -125,7 +129,7 @@
 				                        <li>
 				                            <a href="#food-vendors" role="tab" data-toggle="tab">
 												<i class="material-icons">restaurant</i>
-				                                Food &amp; Vendors
+				                                Food
 				                            </a>
 				                        </li>
 				                        <li>
@@ -146,13 +150,19 @@
 										<div class="tab-pane active" id="sponsors">
 				                            <div class="row">
 												<div class="col-md-6">
-													<img src="assets/img/titos.jpeg" class="img-square" />
-													<img src="assets/img/larceny.jpg" class="img-square" />		
-													<img src="assets/img/fireball.jpg" class="img-square" />																				
+													<a href="http://www.titosvodka.com/"><img src="assets/img/titos.jpeg" class="img-square" /></a>
+													<a href="http://larcenybourbon.com/"><img src="assets/img/larceny.jpg" class="img-square" /></a>	
+													<a href="http://wfpk.org/"><img src="assets/img/wfpk.png" class="img-square" /></a>
+													<a href="http://www.horseshoebend-ky.com/"><img src="assets/img/horseshoe-bend.jpg" class="img-square" /></a>
+													<a href="http://magbooth.com/"><img src="assets/img/magbooth.png" class="img-square" /></a>
+													<a href="http://do502.com/"><img src="assets/img/do502.png" class="img-square" /></a>																					
 													</div>
 												<div class="col-md-6">
-													<img src="assets/img/lunazul.jpg" class="img-square" />	
-													<img src="assets/img/elijahcraig.jpg" class="img-square" />		
+													<a href="http://lunazultequila.com/"><img src="assets/img/lunazul.jpg" class="img-square" /></a>
+													<a href="http://www.heavenhill.com/brands"><img src="assets/img/elijahcraig.jpg" class="img-square" /></a>	
+													<a href="http://www.heavenhill.com/brands"><img src="assets/img/evan-williams.jpg" class="img-square" /></a>
+													<a href="http://www.courier-journal.com/"><img src="assets/img/cj.png" class="img-square" /></a>
+													
 
 												</div>
 				                            </div>
@@ -164,34 +174,57 @@
 													<a href="http://cedricburnside.net/">Cedric Burnside<img src="assets/img/cedric-burnside.jpg" class="img-square" /></a>
 													<a href="http://www.alannaroyale.com/">Alanna Royale<img src="assets/img/alanna-royale.jpg" class="img-square" /></a>
 													<a href="https://www.facebook.com/daddyissuesforreal/">Daddy Issues<img src="assets/img/daddy-issues.jpg" class="img-square" /></a>
+													<a href="https://www.facebook.com/fauxferocious">Faux Ferocious<img src="assets/img/faux-ferocious.jpg" class="img-square" /></a>
+													<a href="http://www.blackfootgypsies.com/">Blackfoot Gypsies<img src="assets/img/blackfoot-gypsies.jpg" class="img-square" /></a>
+													<a href="http://grizzlygoatmusic.com/index/">Grizzly Goat<img src="assets/img/grizzly-goat.jpg" class="img-square" /></a>
+													<a href="http://www.fredericktheyounger.com/">Frederick the Younger<img src="assets/img/frederick-the-younger.jpg" class="img-square" /></a>
+													<a href="http://www.yournewsvehicles.com/">Your News Vehicles<img src="assets/img/your-news-vehicles.jpg" class="img-square" /></a>
+													<a href="http://www.johnnyberrymusic.com/">Johnny Berry and the Outliers<img src="assets/img/johnny-berry.jpg" class="img-square" /></a>
+													<a href="http://www.jkmabry.com/the-maybes/">JK Mabry and the Maybes<img src="assets/img/jk-mabry.jpg" class="img-square" /></a>
+													<a href="https://brendatheband.bandcamp.com/">Brenda<img src="assets/img/brenda.jpg" class="img-square" /></a>
+													<a href="https://www.facebook.com/MoonlightPeddlers/">Moonlight Peddlers<img src="assets/img/moonlight-peddlers.jpg" class="img-square" /></a>
 												</div>
 												<div class="col-md-6">
 													<a href="http://lowcutconnie.com/">Low Cut Connie<img src="assets/img/low-cut-connie.jpg" class="img-square" /></a>
 													<a href="http://www.patricksweany.com/">Patrick Sweany<img src="assets/img/patrick-sweany.jpg" class="img-square" /></a>
 													<a href="http://blairealise.com/">Blaire Alise & The Bombshells<img src="assets/img/Blaire-Alise-and-The-Bombshells.jpg" class="img-square" /></a>
+													<a href="http://www.themobros.com/">The Mobros<img src="assets/img/the-mobros.jpg" class="img-square" /></a>
+													<a href="https://www.facebook.com/rubytherabbitfoot/">Ruby the Rabbitfoot<img src="assets/img/ruby-the-rabbitfoot.jpg" class="img-square" /></a>
+													<a href="https://www.facebook.com/Bohannons/">Bohannons<img src="assets/img/bohannons.jpg" class="img-square" /></a>
+													<a href="http://www.violentbearkc.com/">Violent Bear<img src="assets/img/violent-bear.jpg" class="img-square" /></a>
+													<a href="http://www.thecutfamilyfoundation.com/">Cut Family Foundation<img src="assets/img/cut-family-foundation.gif" class="img-square" /></a>
+													<a href="https://www.facebook.com/TsunamiSamurai/">Tsunami Samurai<img src="assets/img/tsunami-samurai.jpg" class="img-square" /></a>
+													<a href="https://www.facebook.com/joannthedakota/">Joann and the Dakota<img src="assets/img/joann-and-the-dakota.jpg" class="img-square" /></a>
+													<a href="http://www.newbravado.com/">New Bravado<img src="assets/img/new-bravado.jpg" class="img-square" /></a>
+													<a href="https://ohlm.bandcamp.com/">(ohlm)<img src="assets/img/ohlm.jpg" class="img-square" /></a>
 												</div>
 											</div>
 				                        </div>
 										<div class="tab-pane text-center" id="food-vendors">
 											<div class="row">
 												<div class="col-md-6">
-													<img src="assets/img/vgrits.jpg" class="img-square" />
-													<img src="assets/img/lilcheezers.jpg" class="img-square" />
+													<a href="http://www.vgritsfoodtruck.com/"><img src="assets/img/vgrits.jpg" class="img-square" /></a>
+													<a href="https://twitter.com/lilcheezers"><img src="assets/img/lilcheezers.jpg" class="img-square" /></a>
+													<a href="http://mommasbbq.com/"><img src="assets/img/mommas.png" class="img-square" /></a>
+													<a href="https://twitter.com/holymoletruck"><img src="assets/img/hole-mole.jpg" class="img-square" /></a>
 
 												</div>
 												<div class="col-md-6">
-													<img src="assets/img/tuxedo.png" class="img-square" />
-
+													<a href="http://www.snowhatlouisville.com/"><img src="assets/img/snowhat.jpg" class="img-square" /></a>
+													<a href="http://celticpig.com/"><img src="assets/img/celtic-pig.jpg" class="img-square" /></a>
+													<a href="http://www.redtopdogs.com/"><img src="assets/img/red-top.jpg" class="img-square" /></a>
+	
 												</div>
 											</div>
 				                        </div>
 										<div class="tab-pane text-center" id="venues">
 											<div class="row">
 												<div class="col-md-6">
-													<img src="assets/img/thenewvintage.png" class="img-square" />
+													<a href="http://www.newvintagelouisville.com/"><img src="assets/img/thenewvintage.png" class="img-square" /></a>
 												</div>
 												<div class="col-md-6">
-													<img src="assets/img/zbar.png" class="img-square" />
+													<a href="http://zanzabarlouisville.com/"><img src="assets/img/zbar.png" class="img-square" /></a>
+													<a href="https://www.facebook.com/Purrswaytions"><img src="assets/img/purrswaytions.jpeg" class="img-square" /></a>
 												</div>
 											</div>
 				                        </div>		                        				                        
